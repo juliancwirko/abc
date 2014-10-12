@@ -52,6 +52,7 @@
 
 html {
     height: auto;
+    overflow: hidden; //only if nicescroll plugin is in use (default enabled)
 }
 body {
     position: relative;

@@ -6509,7 +6509,8 @@ th.hide-for-touch {
   th.show-for-print {
     display: table-cell !important; } }
 html {
-  height: auto; }
+  height: auto;
+  overflow: hidden; }
 
 body {
   position: relative;
