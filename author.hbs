@@ -1,0 +1,40 @@
+{{!< default}}
+{{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
+
+{{! Everything inside the #author tags pulls data from the author }}
+{{#author}}
+    {{! facebook and twitter meta data config partial}}
+    {{> open-graph-twitter}}
+
+    <nav class="main-nav">
+        <a href="{{@blog.url}}" class="header-back-btn js-bg-check left">
+            <i class="fa fa-chevron-left"></i> Home
+        </a>
+        <i class="fa fa-bars js-bg-check js-main-menu-open right"></i>
+    </nav>
+    <header class="main-header js-blog-bg-image {{#if cover}}" style="background-image: url({{cover}}){{else}}no-cover{{/if}}">
+        <div class="main-header-content">
+            {{#if image}}
+                <div class="author-logo-container">
+                    <img src="{{image}}" alt="{{name}}">
+                </div>
+            {{/if}}
+            <h1 class="author-title js-bg-check">
+                <span>{{name}}</span>
+            </h1>
+            {{#if bio}}
+                <h2 class="author-bio js-bg-check">
+                    <span>{{bio}}</span>
+                </h2>
+            {{/if}}
+            <span class="author-stats js-bg-check">
+                {{plural ../pagination.total empty='No posts' singular='% post' plural='% posts'}} <a href="{{url}}rss/"><i class="fa fa-rss"></i></a>
+            </span>
+        </div>
+    </header>
+{{/author}}
+
+<main class="content author-template" role="main">
+    {{! The tag below includes the post loop - partials/loop.hbs }}
+    {{> "loop"}}
+</main>

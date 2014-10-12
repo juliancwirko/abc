@@ -1,0 +1,16 @@
+{{#contentFor "social_meta"}}
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:url" content="{{@blog.url}}{{url}}">
+    {{#if image}}
+        <meta property="og:image" content="{{@blog.url}}{{image}}">
+    {{else}}
+        <meta property="og:image" content="{{@blog.url}}{{@blog.logo}}">
+    {{/if}}
+    <!-- Twitter Card Meta Tags -->
+    <meta property="twitter:url" content="{{@blog.url}}{{url}}">
+    {{#if image}}
+        <meta property="twitter:image" content="{{@blog.url}}{{image}}">
+    {{else}}
+        <meta property="twitter:image" content="{{@blog.url}}{{@blog.logo}}">
+    {{/if}}
+{{/contentFor}}

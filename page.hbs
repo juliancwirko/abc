@@ -1,0 +1,29 @@
+{{!< default}}
+
+{{! This is a page template. A page outputs content just like any other post, and has all the same
+    attributes by default, but you can also customise it to behave differently if you prefer. }}
+{{#post}}
+
+{{! facebook and twitter meta data config partial}}
+{{> open-graph-twitter}}
+
+<nav class="main-nav">
+    <a href="{{@blog.url}}" class="header-back-btn js-bg-check left">
+        <i class="fa fa-chevron-left"></i> Home
+    </a>
+    <i class="fa fa-bars js-bg-check js-main-menu-open right"></i>
+</nav>
+<header class="post-view-header js-blog-bg-image {{#if image}}" style="background-image: url({{image}}){{else}}no-cover{{/if}}">
+    <div class="post-header-content">
+        <h1 class="post-title js-bg-check">{{title}}</h1>
+    </div>
+</header>
+
+<main class="post-view-content row" role="main">
+    <article class="{{post_class}} small-12 columns">
+        <section class="post-content">
+            {{content}}
+        </section>
+    </article>
+</main>
+{{/post}}

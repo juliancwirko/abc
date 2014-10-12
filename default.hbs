@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {{! Document Settings }}
+    <meta charset="utf-8">
+
+    {{! Page Meta }}
+    <title>{{meta_title}}</title>
+    <meta name="description" content="{{meta_description}}">
+
+    {{! Open graph }}
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{meta_title}}">
+    <meta property="og:description" content="{{meta_description}}">
+    <meta property="og:site_name" content="{{@blog.title}}">
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="{{meta_title}}">
+    <meta name="twitter:description" content="{{meta_description}}">
+    {{! Open Graph and Twitter image meta tags here - different for different pages (index, post, page etc.)}}
+    {{{block "social_meta"}}}
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="{{asset "favicon.ico"}}">
+
+    {{! Styles - Foundation 5 included}}
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
+    {{!-- styles for syntax highlighter you will find more here: https://github.com/isagalaev/highlight.js/tree/master/src/styles just change .min.css file name below --}}
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.3/styles/monokai_sublime.min.css">
+    <link rel="stylesheet" href="{{asset "css/style.css"}}">
+
+    {{! Ghost outputs important style and meta data with this tag }}
+    {{ghost_head}}
+
+    {{! Modernizr }}
+    <script src="{{asset "js/vendor/modernizr.js"}}"></script>
+</head>
+<body class="{{body_class}}">
+
+    {{! Everything else gets inserted here }}
+    {{{body}}}
+
+    <footer class="site-footer">
+         <section class="poweredby ghost">Proudly published with <a href="https://ghost.org">Ghost</a></section>
+         <section class="poweredby px-themes">Theme by <a href="http://pxt.be">pxThemes</a> <a class="subscribe-button" href="{{@blog.url}}/rss/"><i class="fa fa-rss"></i></a></section>
+    </footer>
+
+    {{! Document borders}}
+    <div class="tborder"></div>
+    <div class="rborder"></div>
+    <div class="bborder"></div>
+    <div class="lborder"></div>
+
+    <div class="main-menu-ovrl main-menu-ovrl-hugeinc js-main-menu-ovrl">
+        <i class="fa fa-times main-menu-ovrl-close js-main-menu-close"></i>
+        <nav>
+            <ul>
+                <li><a href="{{@blog.url}}">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Work</a></li>
+                <li><a href="#">Clients</a></li>
+                <li><a href="/contact-us">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    {{! Ghost outputs important scripts and data with this tag }}
+    {{ghost_foot}}
+
+    {{! The main JavaScript files }}
+    <script type="text/javascript" src="{{asset "js/vendor/foundation.min.js"}}"></script>
+    <script type="text/javascript" src="{{asset "js/vendor/imagesloaded.js"}}"></script>
+    <script type="text/javascript" src="{{asset "js/vendor/background-check.js"}}"></script>
+    <script type="text/javascript" src="{{asset "js/vendor/nice-scroll.js"}}"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.3/highlight.min.js"></script>
+    <script type="text/javascript" src="{{asset "js/abc.js"}}"></script>
+
+</body>
+</html>

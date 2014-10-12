@@ -1,0 +1,90 @@
+{{!< default}}
+
+{{! The comment above "< default" means - insert everything in this file into
+    the {body} of the default.hbs template, which contains our header/footer. }}
+
+{{! Everything inside the #post tags pulls data from the post }}
+{{#post}}
+
+{{! facebook and twitter meta data config partial}}
+{{> open-graph-twitter}}
+
+<nav class="main-nav">
+    <a href="{{@blog.url}}" class="header-back-btn js-bg-check left">
+        <i class="fa fa-chevron-left"></i> Home
+    </a>
+    <i class="fa fa-bars js-bg-check js-main-menu-open right"></i>
+</nav>
+<header class="post-view-header js-blog-bg-image {{#if image}}" style="background-image: url({{image}}){{else}}no-cover{{/if}}">
+    <div class="post-header-content">
+        <h1 class="post-title js-bg-check">{{title}}</h1>
+        <section class="post-meta js-bg-check">
+            <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time>
+        </section>
+    </div>
+</header>
+
+<main class="post-view-content" role="main">
+
+    <article class="{{post_class}}">
+
+        <section class="post-content row">
+            <div class="small-12 columns">{{content}}</div>
+        </section>
+
+        <footer class="post-footer row">
+            <div class="small-12 columns">
+                <section class="post-tags">
+                    {{tags prefix="Tags: "}}
+                </section>
+
+                <section class="share">
+                    <h5>Share this post:</h5>
+                    <a class="icon-twitter" href="https://twitter.com/share?text={{encode title}}&amp;url={{url absolute="true"}}"
+                        onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                        <span class="hidden"><i class="fa fa-twitter-square"></i></span>
+                    </a>
+                    <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u={{url absolute="true"}}"
+                        onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                        <span class="hidden"><i class="fa fa-facebook-square"></i></span>
+                    </a>
+                    <a class="icon-google-plus" href="https://plus.google.com/share?url={{url absolute="true"}}"
+                       onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                        <span class="hidden"><i class="fa fa-google-plus-square"></i></span>
+                    </a>
+                </section>
+            </div>
+        </footer>
+
+        {{! Everything inside the #author tags pulls data from the author }}
+        {{#author}}
+            <section class="author-info">
+                <div class="row">
+                    <section class="post-author small-12 columns">
+                        {{#if image}}
+                            <img src="{{image}}" class="post-author-avatar" alt="{{name}}">
+                        {{/if}}
+                        {{#if name}}
+                            <span class="author-label">Author</span>
+                            <h1><a href="{{url}}" class="author-link-name">{{name}}</a></h1>
+                        {{/if}}
+                        {{#if website}}
+                            <p><a href="{{website}}" class="author-website">{{website}}</a></p>
+                        {{/if}}
+                        {{#if bio}}
+                            <p>{{bio}}</p>
+                        {{/if}}
+                    </section>
+                </div>
+            </section>
+        {{/author}}
+
+        <section class="disqus">
+            {{> disqus}}
+        </section>
+
+    </article>
+
+</main>
+
+{{/post}}

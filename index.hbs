@@ -1,0 +1,29 @@
+{{! facebook and twitter meta data config partial}}
+{{> open-graph-twitter}}
+
+{{!< default}}
+{{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
+
+{{! The big featured header }}
+<nav class="main-nav">
+    <i class="fa fa-bars js-bg-check js-main-menu-open right"></i>
+</nav>
+<header class="main-header js-blog-bg-image {{#if @blog.cover}}" style="background-image: url({{@blog.cover}}){{else}}no-cover{{/if}}">
+    <div class="main-header-content">
+        {{#if @blog.logo}}
+        <div class="post-logo-container">
+            <a class="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="Blog Logo" /></a>
+        </div>
+        {{/if}}
+        <h1 class="page-title js-bg-check"><span>{{@blog.title}}</span></h1>
+        <h2 class="page-description js-bg-check"><span>{{@blog.description}}</span></h2>
+    </div>
+</header>
+
+{{! The main content area on the homepage }}
+<main id="content" class="content home-template" role="main">
+
+    {{! The tag below includes the post loop - partials/loop.hbs }}
+    {{> "loop"}}
+
+</main>

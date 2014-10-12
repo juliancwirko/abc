@@ -1,0 +1,58 @@
+// font family
+
+$main-font: 'Lora', serif;
+$headers-font: 'Source Sans Pro', sans-serif;
+
+// colors
+// you can also change standard Foundation colors
+
+$color-main-dark: #000;
+$color-main-light: #ffffff;
+$color-main-contrast: #e51843;
+
+$body-border-width: rem-calc(15);
+
+// Foundation overwrites
+//
+// You can do this in the _foundation-settings.scss file
+// just uncomment and edit some parts
+// or you can copy it here like the ones below
+
+$primary-color: $color-main-contrast;
+
+$row-width: rem-calc(800);
+
+$body-font-family: $main-font;
+$header-font-family: $headers-font;
+
+$header-font-weight: 700;
+
+$paragraph-font-size: 1.125rem;
+$paragraph-line-height: 1.7;
+
+$anchor-text-decoration: underline;
+
+$h1-font-size: rem-calc(64);
+$h2-font-size: rem-calc(40);
+$h3-font-size: rem-calc(32);
+$h4-font-size: rem-calc(23);
+$h5-font-size: rem-calc(18);
+$h6-font-size: 1rem;
+
+
+// custom theme mixins
+// example:
+// clearfix usage:
+//  .some-div {
+//      ...
+//      @extend %clearfix;
+//  }
+
+%clearfix {
+    &:before,
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
