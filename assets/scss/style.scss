@@ -493,6 +493,8 @@ body {
 // document borders
 .rborder, .lborder, .tborder, .bborder {
     background: $color-main-dark;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
 }
 .rborder, .lborder {
     position: fixed;
@@ -544,6 +546,8 @@ body {
     top: 0;
     left: 0;
     background: rgba($color-main-dark, .9);
+    -webkit-user-select: none;
+    user-select: none;
     /* main-menu-ovrl closing cross */
     .main-menu-ovrl-close {
         font-size: rem-calc(60);
@@ -557,6 +561,8 @@ body {
         outline: none;
         z-index: 100;
         cursor: pointer;
+        -webkit-user-select: none;
+        user-select: none;
     }
     /* Menu style */
     nav {
@@ -574,6 +580,8 @@ body {
         display: inline-block;
         height: 100%;
         position: relative;
+        -webkit-user-select: none;
+        user-select: none;
         li {
             display: block;
             height: 20%;

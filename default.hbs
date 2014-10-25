@@ -8,25 +8,13 @@
     <title>{{meta_title}}</title>
     <meta name="description" content="{{meta_description}}">
 
-    {{! Open graph }}
-    <!-- Open Graph Meta Tags -->
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="{{meta_title}}">
-    <meta property="og:description" content="{{meta_description}}">
-    <meta property="og:site_name" content="{{@blog.title}}">
-    <!-- Twitter Card Meta Tags -->
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="{{meta_title}}">
-    <meta name="twitter:description" content="{{meta_description}}">
-    {{! Open Graph and Twitter image meta tags here - different for different pages (index, post, page etc.)}}
-    {{{block "social_meta"}}}
-
     <meta name="HandheldFriendly" content="True">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="shortcut icon" href="{{asset "favicon.ico"}}">
 
     {{! Styles - Foundation 5 included}}
+
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
@@ -74,7 +62,6 @@
 
     {{! The main JavaScript files }}
     <script type="text/javascript" src="{{asset "js/vendor/foundation.min.js"}}"></script>
-    <script type="text/javascript" src="{{asset "js/vendor/imagesloaded.js"}}"></script>
     <script type="text/javascript" src="{{asset "js/vendor/background-check.js"}}"></script>
     <script type="text/javascript" src="{{asset "js/vendor/nice-scroll.js"}}"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.3/highlight.min.js"></script>

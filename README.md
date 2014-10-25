@@ -28,6 +28,14 @@ Your feedback will be very appreciated. You can also send feature requests by op
 
 Thanks!
 
+#### Changelog
+
+##### 1.1.0 (25.10.2014)
+
+- Ghost 0.5.3 ready
+- custom Open Graph tags removed (in Ghost 0.5.3 you have better default ones)
+- removed unused imagesloaded script
+- post headers color fix
 
 #### License
 

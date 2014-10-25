@@ -5489,14 +5489,14 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 700;
   font-style: normal;
-  color: #222222;
+  color: black;
   text-rendering: optimizeLegibility;
   margin-top: 0.2rem;
   margin-bottom: 0.5rem;
   line-height: 1.4; }
   h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
     font-size: 60%;
-    color: #6f6f6f;
+    color: #595959;
     line-height: 0; }
 
 h1 {
@@ -5519,7 +5519,7 @@ h6 {
 
 .subheader {
   line-height: 1.4;
-  color: #6f6f6f;
+  color: #595959;
   font-weight: normal;
   margin-top: 0.2rem;
   margin-bottom: 0.5rem; }
@@ -5631,17 +5631,17 @@ blockquote {
   blockquote cite {
     display: block;
     font-size: 0.8125rem;
-    color: #555555; }
+    color: #3b3b3b; }
     blockquote cite:before {
       content: "\2014 \0020"; }
     blockquote cite a,
     blockquote cite a:visited {
-      color: #555555; }
+      color: #3b3b3b; }
 
 blockquote,
 blockquote p {
   line-height: 1.7;
-  color: #6f6f6f; }
+  color: #595959; }
 
 /* Microformats */
 .vcard {
@@ -6886,7 +6886,9 @@ body {
     transform: translateX(-0.3125rem); }
 
 .rborder, .lborder, .tborder, .bborder {
-  background: black; }
+  background: black;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0); }
 
 .rborder, .lborder {
   position: fixed;
@@ -6930,6 +6932,8 @@ body {
   top: 0;
   left: 0;
   background: rgba(0, 0, 0, 0.9);
+  -webkit-user-select: none;
+  user-select: none;
   /* main-menu-ovrl closing cross */
   /* Menu style */ }
   .main-menu-ovrl .main-menu-ovrl-close {
@@ -6943,7 +6947,9 @@ body {
     color: white;
     outline: none;
     z-index: 100;
-    cursor: pointer; }
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none; }
   .main-menu-ovrl nav {
     text-align: center;
     position: relative;
@@ -6957,7 +6963,9 @@ body {
     margin: 0 auto;
     display: inline-block;
     height: 100%;
-    position: relative; }
+    position: relative;
+    -webkit-user-select: none;
+    user-select: none; }
     .main-menu-ovrl ul li {
       display: block;
       height: 20%;
