@@ -30,6 +30,10 @@ Thanks!
 
 #### Changelog
 
+##### 1.1.1 (26.10.2014)
+
+- NiceScroll update
+
 ##### 1.1.0 (25.10.2014)
 
 - Ghost 0.5.3 ready
