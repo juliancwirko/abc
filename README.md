@@ -30,6 +30,11 @@ Thanks!
 
 #### Changelog
 
+##### 1.1.2 (01.11.2014)
+
+- Foundation update (5.4.7)
+- small fixes
+
 ##### 1.1.1 (26.10.2014)
 
 - NiceScroll update
