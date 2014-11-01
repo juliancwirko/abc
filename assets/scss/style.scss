@@ -150,7 +150,7 @@ body {
 .main-header {
     padding: rem-calc(120) rem-calc(30);
     h1 {
-        font-size: rem-calc(40);
+        font-size: rem-calc(60);
         line-height: 1.2;
         @media screen and (min-width: 48em) {
             font-size: rem-calc(90);
@@ -198,7 +198,7 @@ body {
     .post-title {
         color: $color-main-dark;
         margin: 0;
-        font-size: rem-calc(26);
+        font-size: rem-calc(28);
         line-height: 1.1;
         a, a:hover, a:focus, a:active {
             color: inherit;
@@ -230,7 +230,7 @@ body {
             margin-left: auto;
             margin-right: auto;
             h1 {
-                font-size: rem-calc(40);
+                font-size: rem-calc(55);
                 line-height: 1.2;
                 @media screen and (min-width: 48em) {
                     font-size: rem-calc(68);
