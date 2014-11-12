@@ -51,7 +51,7 @@ var abc = (function ($) {
             cursorborderradius: 10,
             scrollspeed: 80,
             mousescrollstep: 40,
-            autohidemode: 'cursor',
+            autohidemode: false,
             railpadding: {right: 5}
         });
     },
