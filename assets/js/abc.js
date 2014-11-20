@@ -42,20 +42,6 @@ var abc = (function ($) {
         }
     },
 
-    niceSroll = function() {
-        $('html').niceScroll({
-            cursorcolor:'#fff',
-            cursorwidth: 5,
-            cursorborder: '1px solid #fff',
-            zindex: 99999,
-            cursorborderradius: 10,
-            scrollspeed: 80,
-            mousescrollstep: 40,
-            autohidemode: false,
-            railpadding: {right: 5}
-        });
-    },
-
     // https://highlightjs.org/
     syntaxHighlighter = function () {
         hljs.initHighlightingOnLoad();
@@ -66,7 +52,6 @@ var abc = (function ($) {
         mainMenu();
         $(document).foundation();
         headerTitles();
-        niceSroll();
         syntaxHighlighter();
     };
 

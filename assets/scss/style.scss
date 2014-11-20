@@ -52,7 +52,6 @@
 
 html {
     height: auto;
-    overflow: hidden; //only if nicescroll plugin is in use (default enabled)
 }
 body {
     position: relative;
@@ -66,6 +65,17 @@ body {
 ::-moz-selection {
     background: $color-main-contrast;
     color: $color-main-light;
+}
+
+::-webkit-scrollbar {
+    width: rem-calc(5);
+    background-color: darken($color-main-light, 5%);
+}
+::-webkit-scrollbar-track {
+    background-color: darken($color-main-light, 5%);
+}
+::-webkit-scrollbar-thumb {
+    background-color: darken($color-main-light, 70%);
 }
 
 // header styles
@@ -187,7 +197,7 @@ body {
             background-color: darken($color-main-light, 3%);
         }
         @media screen and (min-width: 48em) {
-            padding: rem-calc(60) rem-calc(30);
+            padding: rem-calc(40) rem-calc(30);
         }
     }
     .author-thumb {

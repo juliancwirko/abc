@@ -19,7 +19,7 @@ You can download it from the GitHub repository:
 [https://github.com/juliancwirko/abc](https://github.com/juliancwirko/abc)
 If you like it consider starring it on GitHub :)
 
-I encourage you to check out my other themes on ThemeForest. Here is a link to my portfolio page: [http://themeforest.net/user/pxThemes/portfolio](http://themeforest.net/user/pxThemes/portfolio)
+I encourage you to check out my other themes on ThemeForest. Here is a link to my portfolio page: [http://themeforest.net/user/pxThemes/portfolio](http://themeforest.net/user/pxThemes/portfolio?ref=pxThemes) or check pxThemes website here: [pxt.be](http://pxt.be)
 
 You can contact me through Twitter [**@juliancwirko**](https://twitter.com/JulianCwirko)
 
@@ -29,6 +29,12 @@ Your feedback will be very appreciated. You can also send feature requests by op
 Thanks!
 
 #### Changelog
+
+##### 1.2.0 (20.11.2014)
+
+- remove NiceScroll
+- add SmoothScroll
+- small fixes
 
 ##### 1.1.2 (01.11.2014)
 
