@@ -30,6 +30,10 @@ Thanks!
 
 #### Changelog
 
+##### 1.2.1 (14.12.2014)
+
+- Foundation update (5.5.0)
+
 ##### 1.2.0 (20.11.2014)
 
 - remove NiceScroll
