@@ -28,7 +28,22 @@ Your feedback will be very appreciated. You can also send feature requests by op
 
 Thanks!
 
+#### Compiling Sass
+
+You can use Grunt and Node Sass. Just cd into theme folder and run ````npm install```` (with 'sudo' if you're on Ubuntu like linux) and then ````grunt```` to compile scss file and also 'watch for changes'.
+
+You can see Gruntfile.js for configuration changes. You can also play with other Grunt tasks here.
+
+Of course if you want you can still use Ruby version. Just go to assets folder and run ````scss --watch scss:css````
+
+But I think that Libsass/Node version is much faster.
+
+
 #### Changelog
+
+##### 1.3.0 (05.01.2015)
+
+- simple Grunt tasks added - Sass compile and watch..
 
 ##### 1.2.1 (14.12.2014)
 

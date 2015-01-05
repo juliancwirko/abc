@@ -1,4 +1,11 @@
 {
-  "name": "Abc",
-  "version": "1.2.1"
+    "name": "Abc",
+    "version": "1.3.0",
+    "devDependencies": {
+        "load-grunt-tasks": "~1.0.0",
+        "node-sass": "~2.0.0-beta",
+        "grunt-sass": "~0.17.0",
+        "grunt": "~0.4.5",
+        "grunt-contrib-watch": "~0.6.1"
+    }
 }
