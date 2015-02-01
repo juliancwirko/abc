@@ -44,6 +44,11 @@ But I think that Libsass/Node version is much faster.
 
 #### Changelog
 
+##### 1.3.1 (01.02.2015)
+
+- tag page image covers (Ghost 0.5.8 adjustments)
+- Foundation update
+
 ##### 1.3.0 (05.01.2015)
 
 - simple Grunt tasks added - Sass compile and watch..
