@@ -41,6 +41,15 @@ Of course if you want you can still use Ruby version. Just go to assets folder a
 
 But I think that Libsass/Node version is much faster.
 
+#### You can use image covers for particular sites:
+
+Just use standard Ghost admin panel settings.
+
+- Static page example: [http://abc.pxt.be/about/](http://abc.pxt.be/about/)
+- Post example: [http://abc.pxt.be/post-with-image-cover/](http://abc.pxt.be/post-with-image-cover/)
+- Particular tag list example: [http://abc.pxt.be/tag/getting-started/](http://abc.pxt.be/tag/getting-started/)
+- Author cover example: [http://abc.pxt.be/author/ava-johnson/](http://abc.pxt.be/author/ava-johnson/)
+
 
 #### Changelog
 
