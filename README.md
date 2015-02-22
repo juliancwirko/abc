@@ -15,6 +15,7 @@ You can use it as you like. If you want you can show me what you have build on i
 * Code highlighter [read more](http://abc.pxt.be/code-highlighter/)
 * Font icons [read more](http://abc.pxt.be/font-icons-to-use/)
 * Post covers [read more](http://abc.pxt.be/post-with-image-cover/)
+* Tag covers [example](http://abc.pxt.be/tag/getting-started/)
 * Video, SoundCloud embeding [read more](http://abc.pxt.be/video-soundcloud/)
 * Clean text formating [read more](http://abc.pxt.be/welcome-to-ghost/)
 
