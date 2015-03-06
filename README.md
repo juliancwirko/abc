@@ -55,7 +55,7 @@ Just use standard Ghost admin panel settings.
 
 #### Changelog
 
-##### 1.4.0 (06.02.2015)
+##### 1.4.0 (06.03.2015)
 
 - custom navigation setup (Ghost 0.5.9 adjustments)
 
