@@ -18,6 +18,7 @@ You can use it as you like. If you want you can show me what you have build on i
 * Tag covers [example](http://abc.pxt.be/tag/getting-started/)
 * Video, SoundCloud embeding [read more](http://abc.pxt.be/video-soundcloud/)
 * Clean text formating [read more](http://abc.pxt.be/welcome-to-ghost/)
+* Custom navigation setup [more info](https://blog.ghost.org/navigation/)
 
 You can download it from the GitHub repository:
 [https://github.com/juliancwirko/abc](https://github.com/juliancwirko/abc)
@@ -53,6 +54,10 @@ Just use standard Ghost admin panel settings.
 
 
 #### Changelog
+
+##### 1.4.0 (06.02.2015)
+
+- custom navigation setup (Ghost 0.5.9 adjustments)
 
 ##### 1.3.1 (01.02.2015)
 
