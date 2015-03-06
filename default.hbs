@@ -33,10 +33,7 @@
     {{! Everything else gets inserted here }}
     {{{body}}}
 
-    <footer class="site-footer">
-         <section class="poweredby ghost">Proudly published with <a href="https://ghost.org">Ghost</a></section>
-         <section class="poweredby px-themes">Theme by <a href="http://pxt.be">pxThemes</a> <a class="subscribe-button" href="{{@blog.url}}/rss/"><i class="fa fa-rss"></i></a></section>
-    </footer>
+    {{> "footer"}}
 
     {{! Document borders}}
     <div class="tborder"></div>
