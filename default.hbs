@@ -44,18 +44,9 @@
     <div class="bborder"></div>
     <div class="lborder"></div>
 
-    <div class="main-menu-ovrl main-menu-ovrl-hugeinc js-main-menu-ovrl">
-        <i class="fa fa-times main-menu-ovrl-close js-main-menu-close"></i>
-        <nav>
-            <ul>
-                <li><a href="{{@blog.url}}">Home</a></li>
-                <li><a href="/about">About</a></li>
-                <li><a href="/work">Work</a></li>
-                <li><a href="/clients">Clients</a></li>
-                <li><a href="/contact">Contact</a></li>
-            </ul>
-        </nav>
-    </div>
+    {{#if @blog.navigation}}
+        {{navigation}}
+    {{/if}}
 
     {{! Ghost outputs important scripts and data with this tag }}
     {{ghost_foot}}

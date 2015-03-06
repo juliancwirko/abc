@@ -1,0 +1,12 @@
+<div class="main-menu-ovrl main-menu-ovrl-hugeinc js-main-menu-ovrl">
+    <i class="fa fa-times main-menu-ovrl-close js-main-menu-close"></i>
+    <nav>
+        <ul>
+            {{#foreach navigation}}
+                <li>
+                    <a href="{{url absolute="true"}}">{{label}}</a>
+                </li>
+            {{/foreach}}
+        </ul>
+    </nav>
+</div>

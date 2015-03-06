@@ -10,7 +10,7 @@
     <a href="{{@blog.url}}" class="header-back-btn js-bg-check left">
         <i class="fa fa-chevron-left"></i> Home
     </a>
-    <i class="fa fa-bars js-bg-check js-main-menu-open right"></i>
+    {{> "menu-activator-icon"}}
 </nav>
 <header class="post-view-header js-blog-bg-image {{#if image}}" style="background-image: url({{image}}){{else}}no-cover{{/if}}">
     <div class="post-header-content">
