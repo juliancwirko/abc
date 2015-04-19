@@ -347,6 +347,17 @@ body {
             }
         }
     }
+    .post-prev-next-pagination {
+        padding-bottom: rem-calc(35);
+        a {
+            color: lighten($color-main-dark, 10%);
+            text-decoration: none;
+        }
+        .prev-next-label {
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+    }
 }
 
 // author info box in post view page

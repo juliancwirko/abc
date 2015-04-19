@@ -6,6 +6,9 @@
 abc theme is a free open source Ghost theme (MIT license).
 You can use it as you like. If you want you can show me what you have build on it.
 
+#### Note
+Remember to change your `disqus_shortname` variable in `partials/disqus.hbs` file!
+
 #### Blog post about ABC theme:
 [Ghost theming with Zurb Foundation and SCSS](http://julian.io/ghost-theming-with-zurb-foundation-and-scss/)
 
@@ -54,6 +57,10 @@ Just use standard Ghost admin panel settings.
 
 
 #### Changelog
+
+##### 1.5.0 (19.04.2015)
+
+- Prev/Next post feature (Ghost 0.6.0 adjustments)
 
 ##### 1.4.0 (06.03.2015)
 

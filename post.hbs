@@ -53,6 +53,35 @@
             </div>
         </footer>
 
+        <div class="row post-prev-next-pagination">
+            <div class="prev small-6 columns text-left">
+                {{#prev_post}}
+                    {{!-- you can use here {{image}} too --}}
+                    <div class="prev-next-label">
+                        <a href="{{url}}">
+                            <i class="fa fa-angle-double-left"></i> Previous
+                        </a>
+                    </div>
+                    <a href="{{url}}" class="title">
+                        {{title}}
+                    </a>
+                {{/prev_post}}
+            </div>
+            <div class="next small-6 columns text-right">
+                {{#next_post}}
+                    {{!-- you can use here {{image}} too --}}
+                    <div class="prev-next-label">
+                        <a href="{{url}}">
+                            Next <i class="fa fa-angle-double-right"></i>
+                        </a>
+                    </div>
+                    <a href="{{url}}" class="title">
+                        {{title}}
+                    </a>
+                {{/next_post}}
+            </div>
+        </div>
+
         {{! Everything inside the #author tags pulls data from the author }}
         {{#author}}
             <section class="author-info">
