@@ -256,6 +256,7 @@ body {
     }
     .post-view-content {
         margin-top: rem-calc(60);
+        overflow-x: hidden;
     }
     .post-meta {
         font-family: $headers-font;
