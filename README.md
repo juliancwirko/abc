@@ -58,6 +58,11 @@ Just use standard Ghost admin panel settings.
 
 #### Changelog
 
+##### 1.5.2 (03.10.2015)
+
+- Grunt workflow dependencies update
+- Font Awesome update (4.4.0)
+
 ##### 1.5.1 (26.07.2015)
 
 - Grunt workflow dependencies update
