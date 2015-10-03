@@ -60,6 +60,7 @@ Just use standard Ghost admin panel settings.
 
 ##### 1.5.2 (03.10.2015)
 
+- jQuery added (Ghost 0.7.* adjustments)
 - Grunt workflow dependencies update
 - Font Awesome update (4.4.0)
 
