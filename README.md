@@ -55,6 +55,12 @@ Just use standard Ghost admin panel settings.
 - Particular tag list example: [http://abc.pxt.be/tag/getting-started/](http://abc.pxt.be/tag/getting-started/)
 - Author cover example: [http://abc.pxt.be/author/ava-johnson/](http://abc.pxt.be/author/ava-johnson/)
 
+#### Check out my other themes:
+
+- [Anima](http://themeforest.net/item/anima-multipurpose-ghost-theme/9601972?ref=pxThemes): <br> <a href="http://themeforest.net/item/anima-multipurpose-ghost-theme/9601972?ref=pxThemes"><img src="https://image-tf.s3.envato.com/files/155658086/preview_590x300.__large_preview.jpg" /></a>
+- [Summer](http://themeforest.net/item/summer-simple-and-clean-ghost-theme/8181353?ref=pxThemes): <br> <a href="http://themeforest.net/item/summer-simple-and-clean-ghost-theme/8181353?ref=pxThemes"><img src="https://image-tf.s3.envato.com/files/155915583/preview_590x300.__large_preview.png" /></a>
+- [Artee](http://themeforest.net/item/artee-portfolio-ghost-theme/7223054?ref=pxThemes): <br> <a href="http://themeforest.net/item/artee-portfolio-ghost-theme/7223054?ref=pxThemes"><img src="https://image-tf.s3.envato.com/files/156182816/preview_590x300.__large_preview.png" /></a>
+- [Trek](http://themeforest.net/item/trek-responsive-ghost-theme/6521607?ref=pxThemes): <br> <a href="http://themeforest.net/item/trek-responsive-ghost-theme/6521607?ref=pxThemes"><img src="https://image-tf.s3.envato.com/files/167525392/preview_590x300.__large_preview.jpg" /></a>
 
 #### Changelog
 
