@@ -24,8 +24,8 @@ Remember to change your `disqus_shortname` variable in `partials/disqus.hbs` fil
 * Custom navigation setup [more info](https://blog.ghost.org/navigation/)
 
 You can download it from the GitHub repository:
-[https://github.com/juliancwirko/abc](https://github.com/juliancwirko/abc)
-If you like it consider starring it on GitHub :)
+[https://github.com/juliancwirko/abc](https://github.com/juliancwirko/abc).
+If you like it, consider starring it on GitHub :)
 
 I encourage you to check out my other themes on ThemeForest. Here is a link to my portfolio page: [http://themeforest.net/user/pxThemes/portfolio](http://themeforest.net/user/pxThemes/portfolio?ref=pxThemes) or check pxThemes website here: [pxt.be](http://pxt.be)
 
