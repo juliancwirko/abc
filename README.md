@@ -57,12 +57,16 @@ Just use standard Ghost admin panel settings.
 
 #### Check out my other themes:
 
-- [Anima](http://themeforest.net/item/anima-multipurpose-ghost-theme/9601972?ref=pxThemes): <br> <a href="http://themeforest.net/item/anima-multipurpose-ghost-theme/9601972?ref=pxThemes"><img src="https://image-tf.s3.envato.com/files/155658086/preview_590x300.__large_preview.jpg" /></a>
-- [Summer](http://themeforest.net/item/summer-simple-and-clean-ghost-theme/8181353?ref=pxThemes): <br> <a href="http://themeforest.net/item/summer-simple-and-clean-ghost-theme/8181353?ref=pxThemes"><img src="https://image-tf.s3.envato.com/files/155915583/preview_590x300.__large_preview.png" /></a>
-- [Artee](http://themeforest.net/item/artee-portfolio-ghost-theme/7223054?ref=pxThemes): <br> <a href="http://themeforest.net/item/artee-portfolio-ghost-theme/7223054?ref=pxThemes"><img src="https://image-tf.s3.envato.com/files/156182816/preview_590x300.__large_preview.png" /></a>
-- [Trek](http://themeforest.net/item/trek-responsive-ghost-theme/6521607?ref=pxThemes): <br> <a href="http://themeforest.net/item/trek-responsive-ghost-theme/6521607?ref=pxThemes"><img src="https://image-tf.s3.envato.com/files/167525392/preview_590x300.__large_preview.jpg" /></a>
+- [Anima](http://themeforest.net/item/anima-multipurpose-ghost-theme/9601972?ref=pxThemes): <br> <a href="http://themeforest.net/item/anima-multipurpose-ghost-theme/9601972?ref=pxThemes"><img src="https://s3.envato.com/files/238526357/preview_590x300.__large_preview.jpg" /></a>
+- [Summer](http://themeforest.net/item/summer-simple-and-clean-ghost-theme/8181353?ref=pxThemes): <br> <a href="http://themeforest.net/item/summer-simple-and-clean-ghost-theme/8181353?ref=pxThemes"><img src="https://s3.envato.com/files/171236846/preview_590x300.__large_preview.png" /></a>
+- [Artee](http://themeforest.net/item/artee-portfolio-ghost-theme/7223054?ref=pxThemes): <br> <a href="http://themeforest.net/item/artee-portfolio-ghost-theme/7223054?ref=pxThemes"><img src="https://s3.envato.com/files/238904029/preview_590x300.__large_preview.png" /></a>
+- [Trek](http://themeforest.net/item/trek-responsive-ghost-theme/6521607?ref=pxThemes): <br> <a href="http://themeforest.net/item/trek-responsive-ghost-theme/6521607?ref=pxThemes"><img src="https://s3.envato.com/files/239113529/preview_590x300.__large_preview.jpg" /></a>
 
 #### Changelog
+
+##### 2.0.0 (14.01.2018)
+
+- updates for Ghost 1.*
 
 ##### 1.5.2 (03.10.2015)
 

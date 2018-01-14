@@ -9,11 +9,11 @@
         </a>
         {{> "menu-activator-icon"}}
     </nav>
-    <header class="main-header js-blog-bg-image {{#if cover}}" style="background-image: url({{cover}}){{else}}no-cover{{/if}}">
+    <header class="main-header js-blog-bg-image {{#if cover_image}}" style="background-image: url({{cover_image}}){{else}}no-cover{{/if}}">
         <div class="main-header-content">
-            {{#if image}}
+            {{#if profile_image}}
                 <div class="author-logo-container">
-                    <img src="{{image}}" alt="{{name}}">
+                    <img src="{{img_url profile_image}}" alt="{{name}}">
                 </div>
             {{/if}}
             <h1 class="author-title js-bg-check">

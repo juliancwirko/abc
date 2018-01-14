@@ -1,6 +1,13 @@
 {
-    "name": "Abc",
-    "version": "1.5.2",
+    "name": "abc",
+    "version": "2.0.0",
+    "author": {
+        "name": "Julian Ćwirko",
+        "email": "julian.cwirko@gmail.com"
+    },
+    "config": {
+        "posts_per_page": 6
+    },
     "devDependencies": {
         "load-grunt-tasks": "~3.3.0",
         "node-sass": "~3.3.3",
