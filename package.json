@@ -8,6 +8,9 @@
     "config": {
         "posts_per_page": 6
     },
+    "keywords": [
+        "ghost-theme"
+    ],
     "devDependencies": {
         "load-grunt-tasks": "~3.3.0",
         "node-sass": "~3.3.3",
