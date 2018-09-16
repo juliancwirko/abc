@@ -6,8 +6,10 @@
         <h2 class="post-title"><a href="{{url}}">{{{title}}}</a></h2>
     </header>
     <footer class="post-meta">
-        {{#if author.profile_image}}<img class="author-thumb" src="{{author.profile_image}}" alt="Author image" nopin="nopin" />{{/if}}
-        {{author}}
+        {{#primary_author}}
+           {{#if profile_image}}<img class="author-thumb" src="{{profile_image}}" alt="Author image" nopin="nopin" />{{/if}}
+           <a href="{{url}}" class="author-link-name">{{name}}</a>
+        {{/primary_author}}
         {{tags prefix=" on "}}
     </footer>
 </article>
