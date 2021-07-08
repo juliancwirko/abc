@@ -2,9 +2,6 @@
 @import "foundation-settings";
 @import "theme-settings";
 
-// Make sure the charset is set appropriately
-@charset "UTF-8";
-
 // Behold, here are all the Foundation components.
 // You can choose only needed ones
 // grid is mandatory
@@ -201,8 +198,8 @@ body {
         }
     }
     .author-thumb {
-        width: rem-calc(30);
-        height: rem-calc(30);
+        width: rem-calc(20);
+        height: rem-calc(20);
         border-radius: 100%;
     }
     .post-title {
@@ -225,6 +222,19 @@ body {
             color: inherit;
         }
     }
+}
+
+.page-template {
+    .post-view-header {
+        padding: rem-calc(160) rem-calc(30) rem-calc(120);
+        &.no-cover {
+            padding: rem-calc(160) rem-calc(30) rem-calc(80);
+        }
+    }
+}
+
+.post-header {
+    margin-bottom: 20px;
 }
 
 // post view page
@@ -262,9 +272,11 @@ body {
         }
         .kg-width-wide .kg-image {
             max-width: 1040px;
+            width: 100%;
         }
         .kg-width-full .kg-image {
             max-width: 100vw;
+            width: 100%;
         }
         figure {
             margin: 1.5em 0 3em;
@@ -718,7 +730,7 @@ body {
      display: flex;
      flex-direction: column;
      max-width: 1040px;
-     width: 100vw;
+     width: 100%;
 }
 
 .kg-gallery-row {
@@ -732,4 +744,107 @@ body {
      margin: 0;
      width: 100%;
      height: 100%;
+}
+
+
+.kg-bookmark-card,
+.kg-bookmark-publisher {
+    position: relative;
+    width: 100%;
+}
+
+.kg-bookmark-container,
+.kg-bookmark-container:hover {
+    display: flex;
+    color: $color-main-dark;
+    font-family: $main-font;
+    text-decoration: none !important;
+    background: rgba(255,255,255,0.6);
+    border-radius: 5px;
+    box-shadow: 0 2px 6px -2px rgba(0, 0, 0, 0.1), 0 0 1px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+}
+
+.kg-bookmark-content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-basis: 100%;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.kg-bookmark-title {
+    font-size: 1.5rem;
+    line-height: 1.4em;
+    font-weight: 600;
+    color: $color-main-dark;
+}
+
+.kg-bookmark-description {
+    display: -webkit-box;
+    font-size: 1.4rem;
+    line-height: 1.5em;
+    margin-top: 3px;
+    color: #626d79;
+    font-weight: 400;
+    max-height: 44px;
+    overflow-y: hidden;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.kg-bookmark-metadata {
+    display: flex;
+    align-items: center;
+    margin-top: 22px;
+    width: 100%;
+    color: #394047;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.kg-bookmark-metadata > span:nth-of-type(2) {
+    color: #626d79;
+    font-weight: 400;
+}
+.kg-bookmark-metadata > span:nth-of-type(2):before {
+    content: "•";
+    color: #394047;
+    margin: 0 6px;
+}
+
+.kg-bookmark-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 6px;
+}
+
+.kg-bookmark-author,
+.kg-bookmark-publisher {
+    display: inline;
+}
+
+.kg-bookmark-publisher {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 240px;
+    white-space: nowrap;
+    display: block;
+    line-height: 1.65em;
+}
+
+.kg-bookmark-thumbnail {
+    position: relative;
+    flex-grow: 1;
+    min-width: 33%;
+}
+.kg-bookmark-thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 0 4px 4px 0;
 }

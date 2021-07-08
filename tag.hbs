@@ -3,20 +3,20 @@
 
 {{! The big featured header }}
 <nav class="main-nav">
-    <a href="{{@blog.url}}" class="header-back-btn js-bg-check left">
+    <a href="{{@site.url}}" class="header-back-btn js-bg-check left">
         <i class="fa fa-chevron-left"></i> Home
     </a>
     {{> "menu-activator-icon"}}
 </nav>
 <header class="main-header js-blog-bg-image {{#if tag.feature_image}}" style="background-image: url({{tag.feature_image}}){{else}}no-cover{{/if}}">
     <div class="main-header-content">
-        {{#if @blog.logo}}
+        {{#if @site.logo}}
         <div class="post-logo-container">
-            <a class="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="Blog Logo" /></a>
+            <a class="blog-logo" href="{{@site.url}}"><img src="{{@site.logo}}" alt="Blog Logo" /></a>
         </div>
         {{/if}}
-        <h1 class="page-title js-bg-check"><span>{{@blog.title}}</span></h1>
-        <h2 class="page-description js-bg-check"><span>{{@blog.description}}</span></h2>
+        <h1 class="page-title js-bg-check"><span>{{@site.title}}</span></h1>
+        <h2 class="page-description js-bg-check"><span>{{@site.description}}</span></h2>
     </div>
 </header>
 

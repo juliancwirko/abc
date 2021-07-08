@@ -18,30 +18,6 @@ var abc = (function ($) {
         });
     },
 
-    // change color according to the background
-    headerTitles = function () {
-        if ($('.js-bg-check').length && $('.js-blog-bg-image').length) {
-            var imgPath = $('.js-blog-bg-image').css('background-image');
-            imgPath = imgPath && imgPath.match(/url\((['"])?(.*?)\1\)/);
-            imgPath = imgPath && imgPath[2];
-            if (imgPath) {
-                $('<img>').attr('src', imgPath).load(function() {
-                   $(this).remove();
-                   BackgroundCheck.init({
-                        targets: '.js-bg-check',
-                        images: '.js-blog-bg-image',
-                        threshold: 70,
-                        classes: {
-                            light: 'element-dark', // when background is light
-                            dark: 'element-light', // when background is dark
-                            complex: 'element-complex'
-                        }
-                    });
-                });
-            }
-        }
-    },
-
     // https://highlightjs.org/
     syntaxHighlighter = function () {
         hljs.initHighlightingOnLoad();
@@ -51,7 +27,6 @@ var abc = (function ($) {
     init = function () {
         mainMenu();
         $(document).foundation();
-        headerTitles();
         syntaxHighlighter();
     };
 
