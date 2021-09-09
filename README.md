@@ -53,6 +53,10 @@ Just use standard Ghost admin panel settings.
 
 #### Changelog
 
+##### 3.0.1 (09.09.2021)
+
+- fixed footer positioning
+
 ##### 3.0.0 (07.08.2021)
 
 - updates for Ghost 4.*
