@@ -8335,6 +8335,9 @@ html {
 body {
   position: relative;
   padding: 0.9375rem;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
 ::selection {
@@ -8358,6 +8361,10 @@ body {
 
 ::-webkit-scrollbar-thumb {
   background-color: #4d4d4d;
+}
+
+.main {
+  flex: 1;
 }
 
 .header-back-btn {

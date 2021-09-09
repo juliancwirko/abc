@@ -53,6 +53,9 @@ html {
 body {
     position: relative;
     padding: rem-calc(15);
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
 
 ::selection {
@@ -73,6 +76,10 @@ body {
 }
 ::-webkit-scrollbar-thumb {
     background-color: darken($color-main-light, 70%);
+}
+
+.main {
+    flex: 1;
 }
 
 // header styles
