@@ -8379,7 +8379,6 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   margin-left: 1.875rem;
-  margin-top: 1.875rem;
 }
 .header-back-btn .fa {
   font-size: 0.875rem;
@@ -8900,10 +8899,15 @@ body {
   bottom: 0;
 }
 
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  height: 5rem;
+  align-items: center;
+}
 .main-nav .fa-bars {
   cursor: pointer;
   margin-right: 1.875rem;
-  margin-top: 1.875rem;
   font-size: 2.5rem;
 }
 .main-nav .fa-bars.element-dark {
@@ -8911,6 +8915,10 @@ body {
 }
 .main-nav .fa-bars.element-light {
   color: #ffffff;
+}
+
+.main-nav-homepage {
+  justify-content: flex-end;
 }
 
 /* main-menu-ovrl style */

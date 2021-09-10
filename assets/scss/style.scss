@@ -84,7 +84,7 @@ body {
 
 // header styles
 .header-back-btn {
-    color: $color-main-dark;
+    color: $color-main-dark; 
     border: rem-calc(3) solid $color-main-dark;
     padding: rem-calc(5) rem-calc(20);
     text-align: center;
@@ -95,7 +95,6 @@ body {
     font-weight: 700;
     text-transform: uppercase;
     margin-left: rem-calc(30);
-    margin-top: rem-calc(30);
     .fa {
         font-size: rem-calc(14);
         -webkit-transition: all .3s;
@@ -584,10 +583,14 @@ body {
 }
 
 .main-nav {
+    display: flex;
+    justify-content: space-between;
+    height: rem-calc(80);
+    align-items: center;
+
     .fa-bars {
         cursor: pointer;
         margin-right: rem-calc(30);
-        margin-top: rem-calc(30);
         font-size: rem-calc(40);
         &.element-dark {
             color: $color-main-dark;
@@ -596,6 +599,10 @@ body {
             color: $color-main-light;
         }
     }
+}
+
+.main-nav-homepage {
+    justify-content: flex-end;
 }
 
 
